@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>GitHub Emojis Viewer</title>
+</head>
+
+<body>
+    <div class="install-btn" id="install-btn">Install</div>
+    <div class="menu-container">
+        <div class="menu-btn" id="menu-btn">&#9776; Menu</div>
+        <div class="menu" id="menu">
+            <div class="menu-item" id="home-btn">Главная страница</div>
+            <div class="menu-item" id="log-btn">Показать журнал</div>
+            <div class="menu-item" id="view-emojis-btn">Просмотр эмодзи</div>
+            <div class="menu-item" id="contacts-btn">Контакты</div>
+            <div class="menu-item" id="back-btn">Назад</div>
+        </div>
+    </div>
+    <div class="content">
+        <h1>Мои имоджи</h1>
+        <div id="emojis-container" class="emojis"></div>
+        <div class="show-emojis-btn" id="show-emojis-btn">Просмотр</div>
+        <!-- Добавлено: Кнопка "Назад" -->
+        <div id="back-button" class="back-button" style="display: none;">Назад</div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

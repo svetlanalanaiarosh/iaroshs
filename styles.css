@@ -1,0 +1,113 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #556270;
+    color: #353d46;
+}
+
+.install-btn {
+    cursor: pointer;
+    padding: 15px;
+    background-color: #ff6699;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+.install-btn.active {
+    display: block;
+}
+
+.install-btn:hover {
+    background-color: #ff3385;
+}
+
+.menu-container {
+    position: relative;
+}
+
+.menu-btn {
+    cursor: pointer;
+    padding: 15px;
+    background-color: #ff6699;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    margin-left: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.menu-btn:hover {
+    background-color: #ff3385;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: -200px;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    display: none;
+    flex-direction: column;
+    z-index: 1;
+    padding: 20px;
+}
+
+.menu-item {
+    padding: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: #ff6699;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.menu-item:hover {
+    background-color: #ff3385;
+}
+
+.back-button {
+    cursor: pointer;
+    padding: 15px;
+    background-color: #ff6699;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+    display: none;
+}
+
+.back-button:hover {
+    background-color: #ff3385;
+}
+
+.show-emojis-btn {
+    cursor: pointer;
+    padding: 15px;
+    background-color: #0088cc;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    border: none;
+    border-radius
+}
